@@ -1,11 +1,11 @@
 import './App.css'
 import DataFetch from './components/DateFetch'
-import { XrHitCubeContainer } from './components/xr-hit-cube/XrHiCubeContainer'
+import { XrCubeContainer } from './components/xr-cube/XrCubeContainer'
 
 function App() {
 	return (
 		<>
-			<XrHitCubeContainer />
+			<XrCubeContainer />
 			<DataFetch />
 		</>
 	)
