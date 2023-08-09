@@ -1,13 +1,10 @@
-import { Vector3, useFrame } from '@react-three/fiber'
+import { useFrame } from '@react-three/fiber'
 import { doc } from 'firebase/firestore'
 import { useRef } from 'react'
 import { db } from '../../configs/firebaseconfig'
 import { useDocument } from 'react-firebase-hooks/firestore'
 
-type XrCubeProps = {
-	position?: Vector3
-}
-export const XrCube = ({ position }: XrCubeProps) => {
+export const XrCube = () => {
 	const [value] = useDocument(doc(db, 'control', 'settings'))
 	const cubeRef = useRef<THREE.Mesh>(null)
 	useFrame((_state, delta) => {
