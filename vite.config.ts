@@ -8,6 +8,7 @@ export default defineConfig({
 		react(),
 		VitePWA({
 			includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.png'],
+			registerType: 'autoUpdate',
 			manifest: {
 				name: 'Troldspejlet',
 				short_name: 'Troldspejlet',
