@@ -1,12 +1,12 @@
 import './App.css'
-import DataFetch from './components/DateFetch'
+import GlassOverlay from './components/glass-overlay/GlassOverlay'
 import { XrCubeContainer } from './components/xr-cube/XrCubeContainer'
 
 function App() {
 	return (
 		<>
 			<XrCubeContainer />
-			<DataFetch />
+			<GlassOverlay />
 		</>
 	)
 }
