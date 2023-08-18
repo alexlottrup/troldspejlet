@@ -1,12 +1,14 @@
 import './App.css'
-import Ripple from './components/ripple/Ripple'
+
+import { MainCanvas } from './components/mainCanvas/MainCanvas'
 
 function App() {
 	return (
 		<>
-			<Ripple />
+			{/* <Ripple /> */}
 			{/* <XrCubeContainer />
 			<GlassOverlay /> */}
+			<MainCanvas />
 		</>
 	)
 }
