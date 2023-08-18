@@ -1,12 +1,12 @@
 import './App.css'
-import GlassOverlay from './components/glass-overlay/GlassOverlay'
-import { XrCubeContainer } from './components/xr-cube/XrCubeContainer'
+import Ripple from './components/ripple/Ripple'
 
 function App() {
 	return (
 		<>
-			<XrCubeContainer />
-			<GlassOverlay />
+			<Ripple />
+			{/* <XrCubeContainer />
+			<GlassOverlay /> */}
 		</>
 	)
 }
