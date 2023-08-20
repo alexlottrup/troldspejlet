@@ -5,9 +5,6 @@ import { MainCanvas } from './components/mainCanvas/MainCanvas'
 function App() {
 	return (
 		<>
-			{/* <Ripple /> */}
-			{/* <XrCubeContainer />
-			<GlassOverlay /> */}
 			<MainCanvas />
 		</>
 	)

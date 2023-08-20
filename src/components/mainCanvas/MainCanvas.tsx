@@ -17,12 +17,13 @@ export const MainCanvas = () => {
 	const events = snapshot?.docs.map((doc) => doc.data()) as Event[]
 	const isActive = events?.map((events) => events.active).includes(true)
 
-	useEffect(() => {
-		if (isActive) startSession('immersive-ar', {})
-		if (!isActive) {
-			stopSession()
-		}
-	}, [isActive])
+	// useEffect(() => {
+	// 	if (isActive)
+	// 		startSession('immersive-ar', { requiredFeatures: ['hit-test'] })
+	// 	if (!isActive) {
+	// 		stopSession()
+	// 	}
+	// }, [isActive])
 
 	return (
 		<>
