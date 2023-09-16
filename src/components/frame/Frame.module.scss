@@ -11,8 +11,11 @@ $color: purple;
 	background-color: transparent;
 }
 .fit {
+	background-color: black;
+	opacity: 0.75;
 	margin: -55px;
 	width: calc(100% + 110px);
+	// filter: grayscale(100%);
 	height: calc(100% + 110px);
 	display: grid;
 	place-items: center;
